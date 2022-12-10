@@ -1,7 +1,13 @@
 {
-  "name": "boilerplate",
+  "name": "pwa-nextjs13-tailwindcss-boilerplate",
+  "description": "A PWA Nextjs 13 Boilerplate using appDir ",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name": "Aurimar Lopes",
+    "email": "aurimardev@gmail.com",
+    "url": "https://github.com/AurimarL"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +15,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next-pwa": "^5.6.0",
+    "@ducanh2912/next-pwa": "^7.1.1",
     "@types/node": "18.11.13",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
